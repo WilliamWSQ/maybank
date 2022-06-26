@@ -1,0 +1,73 @@
+.mt-30 {
+  margin-top: 30px;
+}
+
+.screen-padding-row-renderer {
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-bottom: 20px;
+  padding-top: 5px;
+}
+
+.screen-padding {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.content-empty {
+  padding-top: 18%;
+  text-align: center;
+}
+
+.content-empty h2 {
+  font-size: 26px;
+  line-height: 30px;
+  margin: 1px 0 3px 0;
+  color: #888;
+}
+
+.content-empty span {
+  font-size: 17px;
+  color: #888;
+  margin-bottom: 3px;
+  margin-top: 6px;
+  display: inline-block;
+}
+
+
+.App {
+  text-align: center;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.places-container {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  width: 300px;
+}
+
+.map-container {
+  width: 100%;
+  height: 100vh;
+}
+
+.combobox-input {
+  width: 100%;
+  padding: 0.5rem;
+}
+
+#map {
+  height: 100%;
+}
